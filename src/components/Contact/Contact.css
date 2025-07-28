@@ -1,0 +1,40 @@
+
+button {
+    position: relative;
+
+    background: #8B5CF6;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 24px;
+
+    font-family: sans-serif;
+
+    display: inline-block;
+
+    cursor: pointer;
+
+    box-shadow: 0 5px 0 #6D28D9;
+
+    transform: translateY(0);
+
+    transition: transform 0.1s, box-shadow 0.1s;
+
+    border-radius: 6px;
+
+}
+
+button:hover {
+    transform: translateY(2px);
+
+    box-shadow: 0 3px 0 #6D28D9;
+
+}
+
+button:active {
+    transform: translateY(5px);
+
+    box-shadow: 0 0 0 #6D28D9;
+}
